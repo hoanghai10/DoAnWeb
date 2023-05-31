@@ -136,3 +136,12 @@ body{
     transition: traansform .18s ease;
     transform: translateX(0);
 }
+.wrapper.form-box.checkpass{
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+}
+.wrapper.active .form-box.checkpass{
+    transition: traansform .18s ease;
+    transform: translateX(0);
+}
